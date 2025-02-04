@@ -108,10 +108,10 @@ def main():
     st.write("- Función de activación: ReLU en capas ocultas, Softmax en la salida.")
     st.write("- Optimización con Adam y tasa de aprendizaje de 0.001.")
     st.write("- Se utilizó un conjunto de datos balanceado para evitar sesgos en la clasificación.")
+    st.write("El modelo fue seleccionado debido a su alta precisión en el conjunto de validación, su capacidad de generalización y su eficiencia computacional. Se realizaron pruebas con diferentes configuraciones y esta red neuronal demostró el mejor equilibrio entre rendimiento y consumo de recursos.")
     
     # Footer
     st.markdown('<div class="footer">© 2025 - Clasificación de imágenes con Streamlit</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
-
