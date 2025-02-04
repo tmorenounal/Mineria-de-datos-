@@ -102,12 +102,7 @@ def main():
     
     # Mostrar la elección de hiperparámetros y modelo
     st.subheader("Elección del Mejor Modelo y Hiperparámetros")
-    st.write("Para la clasificación de dígitos MNIST, se probaron múltiples modelos, incluyendo redes neuronales densas (MLP) y convolucionales (CNN).")
-    st.write("El modelo final seleccionado fue una red neuronal multicapa con las siguientes características:")
-    st.write("- Arquitectura: 3 capas densas con 128, 64 y 10 neuronas.")
-    st.write("- Función de activación: ReLU en capas ocultas, Softmax en la salida.")
-    st.write("- Optimización con Adam y tasa de aprendizaje de 0.001.")
-    st.write("- Se utilizó un conjunto de datos balanceado para evitar sesgos en la clasificación.")
+    st.write("Para la clasificación de dígitos MNIST, se selecciono el modelo de una red neuronal multicapa de 3 capas densas con 128, 64 y 10 neuronas, con una función de activación ReLU en capas ocultas, Softmax en la salida y una tasa de aprendizaje de 0.001")
     st.write("El modelo fue seleccionado debido a su alta precisión en el conjunto de validación, su capacidad de generalización y su eficiencia computacional. Se realizaron pruebas con diferentes configuraciones y esta red neuronal demostró el mejor equilibrio entre rendimiento y consumo de recursos.")
     
     # Footer
