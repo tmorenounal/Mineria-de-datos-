@@ -99,9 +99,19 @@ def main():
                 
                 # Verificar valores de predicción
                 st.success(f"La imagen fue clasificada como: {prediction}")
-
+    
+    # Mostrar la elección de hiperparámetros y modelo
+    st.subheader("Elección del Mejor Modelo y Hiperparámetros")
+    st.write("Para la clasificación de dígitos MNIST, se probaron múltiples modelos, incluyendo redes neuronales densas (MLP) y convolucionales (CNN).")
+    st.write("El modelo final seleccionado fue una red neuronal multicapa con las siguientes características:")
+    st.write("- Arquitectura: 3 capas densas con 128, 64 y 10 neuronas.")
+    st.write("- Función de activación: ReLU en capas ocultas, Softmax en la salida.")
+    st.write("- Optimización con Adam y tasa de aprendizaje de 0.001.")
+    st.write("- Se utilizó un conjunto de datos balanceado para evitar sesgos en la clasificación.")
+    
     # Footer
     st.markdown('<div class="footer">© 2025 - Clasificación de imágenes con Streamlit</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
+
