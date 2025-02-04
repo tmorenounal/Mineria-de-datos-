@@ -103,7 +103,7 @@ def main():
     # Mostrar la elección de hiperparámetros y modelo
     st.subheader("Elección del Mejor Modelo y Hiperparámetros")
     st.write("Para la clasificación de dígitos MNIST, se selecciono el modelo de una red neuronal multicapa de 3 capas densas con 128, 64 y 10 neuronas, con una función de activación ReLU en capas ocultas, Softmax en la salida y una tasa de aprendizaje de 0.001")
-    st.write("El modelo fue seleccionado debido a su alta precisión en el conjunto de validación, su capacidad de generalización y su eficiencia computacional. Se realizaron pruebas con diferentes configuraciones y esta red neuronal demostró el mejor equilibrio entre rendimiento y consumo de recursos.")
+    st.write("El modelo fue seleccionado debido a su alta precisión en el conjunto de validación, su capacidad de generalización y su eficiencia computacional.")
     
     # Footer
     st.markdown('<div class="footer">© 2025 - Clasificación de imágenes con Streamlit</div>', unsafe_allow_html=True)
